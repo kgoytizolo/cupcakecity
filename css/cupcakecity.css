@@ -1,0 +1,95 @@
+body {
+	background: url(../images/cupcake_city_bg_003_generic.jpg) no-repeat 0 0;
+	background-attachment: fixed;
+	background-origin: content-box;
+	background-size: cover;
+	font-family: 'Helvetica Neue', Arial, sans-serif;
+	font-size: 15px;
+	color:#666;
+	line-height: 1.5;
+}
+
+h1,
+h2 {
+	font-family: 'Muli', sans-serif;
+	font-size: 24px;
+	font-size: 2.4rem;
+	line-height: 1;
+}
+
+h2 {
+	font-size: 20px;
+	font-size: 2rem;	
+}
+.main-col {
+	display: inline-block;
+	width: 100%;
+}
+.homepage {
+	text-align: center;	
+}
+
+.homepage h1 {
+	color: #00BFDA;
+	font-family: 'Century Gothic', 'Muli', sans-serif;
+	font-size: 32px;
+	font-size: 2rem;
+	font-weight: 300;
+	text-shadow: -4px 4px 2px rgba(0, 0, 0, .7);
+	margin: 20px 0 0 0;
+}
+
+.homepage_legend {
+	color: #fff;
+	font-family: 'Muli', sans-serif;
+	font-size: 19px;
+	font-size: 1.2rem;
+	font-weight: 300;
+	text-shadow: -4px 4px 2px rgba(0, 0, 0, .7);	
+	margin: 0 1em;
+	letter-spacing: 3px;
+}
+
+.homepage_legend svg {
+	width: 16px;
+	margin-top: -4px;
+}
+
+.homepage img {
+	margin-top: 7%;
+	opacity: 0.7;
+	max-width: 100%;
+}
+
+
+@media (min-width:440px) {
+	.homepage h1 {
+		font-size: 54px;
+		font-size: 3.5rem;
+		margin: 30px 0 0 0;
+	}
+
+	.homepage_legend {	
+		font-size: 30px;
+		font-size: 1.6rem;
+	}
+	.homepage_legend svg {
+		width: 20px;
+	}
+}
+
+@media (min-width:720px) {
+	.homepage h1 {
+		font-size: 98px;
+		font-size: 6rem;	
+		margin: 40px 0 0 0;
+	}
+
+	.homepage_legend {	
+		font-size: 40px;
+		font-size: 2.5rem;
+	}
+	.homepage_legend svg {
+		width: 28px;
+	}
+}
